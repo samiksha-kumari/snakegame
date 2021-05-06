@@ -113,25 +113,25 @@ window.addEventListener('keydown', e => {
         case "ArrowUp":
             inputDirection.x =  0;
             inputDirection.y = -1;
-            console.log("ArrowUp")
+            // console.log("ArrowUp")
             break;
 
         case "ArrowDown":
             inputDirection.x = 0;
             inputDirection.y = 1;
-            console.log("ArrowDown")
+            // console.log("ArrowDown")
             break;
 
         case "ArrowLeft":
             inputDirection.x = -1;
             inputDirection.y =  0;
-            console.log("ArrowLeft")
+            // console.log("ArrowLeft")
             break;
 
         case "ArrowRight":
             inputDirection.x = 1;
             inputDirection.y = 0;
-            console.log("ArrowRight")
+            // console.log("ArrowRight")
             break;
 
             default:
